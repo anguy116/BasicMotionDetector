@@ -1,6 +1,6 @@
 from setuptools import setup, Extension
 
-module = Extension ('lab2', sources=['lab2.pyx'])
+module = Extension ('lab2', sources=['motionDetector.pyx'])
 
 setup(
     name='lab2',
