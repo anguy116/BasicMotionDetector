@@ -8,12 +8,18 @@ Will highlight the object in motion in white and leave the background/unmoving o
 - Thresholding Gray-Scale values
 - Using fastNlDenoising to reduce noise
 
-## Setup
-1. Slice two frames of an image and convert it to bitmap
-2. Run `python setup.py build_ext --inplace` to compile Cython script locally
-3. `python`
-   1. `from motionDetector import main; main()`
+## Setup/Usage
+- add a video to the video directory or just use that file (with full path) as default
 
+```
+Usage: motionDetector.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUTFILEPATH, --inputFilePath=INPUTFILEPATH
+  -o OUTPUTFILEPATH, --outputFilePath=OUTPUTFILEPATH
+
+```
 
 ## Theory
 
